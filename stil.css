@@ -1,14 +1,7 @@
-html {
-    background-color: lightblue;
-}
-img {
-    width: 300px;
-    height: 300px;
-    background-color: beige;
-    border-radius: 50%;
-    border: 1px solid;
-}
 img:hover {
-    opacity: 50%;
-    transition-duration: 1s;
+    transform: rotate(540deg);
+    transition: 1s;
+li {
+    display: inline;
+    padding: 10px;
 }
